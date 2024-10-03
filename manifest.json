@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "WordPress Theme Inspector",
+    "version": "1.0",
+    "description": "Exibe o nome da pasta do tema WordPress.",
+    "permissions": ["tabs", "scripting"],
+    "host_permissions": ["<all_urls>"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icon.png",
+            "48": "icon.png",
+            "128": "icon.png"
+        }
+    },
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    }
+}
