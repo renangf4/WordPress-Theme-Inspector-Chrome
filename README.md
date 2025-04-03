@@ -26,3 +26,14 @@ This extension scans the page for WordPress-specific information and displays:
 The core logic is inside `content.js`, which listens for messages from the popup and extracts information from the page.  
 
 ### Example Output  
+```
+Theme Folder: twentytwentyfour
+Page Type: Single
+Post Name: hello-world
+```
+
+## 📜 License  
+This project is **open-source** and available under the [MIT License](LICENSE).  
+
+---
+🚀 **Contributions are welcome!** If you have suggestions or improvements, feel free to submit a pull request.  
