@@ -1,7 +1,7 @@
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   if (request.action === "getInfos") {
     const regex = /\/wp-content\/themes\/([^\/]+)\//;
-    const themeLink = document.querySelector('link[href*="/wp-content/themes/"]');
+    const themeLink = document.querySelector('link[href*="' + window.location.host + '/wp-content/themes/"]');
     const messages = [];
     
     if (themeLink) {
