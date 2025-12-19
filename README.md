@@ -52,3 +52,5 @@ This project is **open-source** and available under the [MIT License](LICENSE).
 
 ---
 🚀 **Contributions are welcome!** If you have suggestions or improvements, feel free to submit a pull request.  
+---
+Chrome Store: https://chromewebstore.google.com/detail/wordpress-theme-inspector/lncfbdbfdkkndcbdmoembpcpadneikon
