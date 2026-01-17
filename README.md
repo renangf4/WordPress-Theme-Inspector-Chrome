@@ -25,7 +25,9 @@ This extension scans the page for WordPress-specific information and displays:
 - **Template Name:** If a custom template is used, its name is displayed.  
 - **Post Name:** Shows the post type when viewing a single post.  
 - **Page ID:** Displays the WordPress page ID when available.  
-- **Multiple Themes:** Shows total themes found and lists other themes with file counts.  
+- **Multiple Themes:** Shows total themes found and lists other themes with file counts.
+
+🔒 **Privacy-focused:** Only requests `activeTab` permission, which means it only runs when you actively click the extension icon on the current page.  
 
 ## 🔧 Code Overview  
 The core logic is inside `content.js`, which listens for messages from the popup and extracts information from the page. The extension now intelligently counts theme files to determine the primary theme, even when multiple themes are present.  
